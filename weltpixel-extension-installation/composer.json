@@ -1,0 +1,14 @@
+{
+    "name": "weltpixel/module-google-tag-manager",
+    "description": "WeltPixel GoogleAnalyticsEnhancedEcommerce Module",
+    "version": "1.9.5",
+    "type": "metapackage",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "weltpixel/m2-weltpixel-backend": "1.9.5",
+        "weltpixel/module-google-tag-manager-free": "1.9.5"
+    }   
+}

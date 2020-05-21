@@ -242,6 +242,8 @@ return [
         'Klarna_Kp' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
+        'Mageplaza_Core' => 1,
+        'Mageplaza_BetterPopup' => 1,
         'Solwin_Breadcrumbs' => 1,
         'Solwin_Core' => 1,
         'Solwin_Cpanel' => 1,

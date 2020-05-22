@@ -1,0 +1,228 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1590165501;s:6:"expire";i:1590251901;s:4:"tags";s:45:"7cf_CAT_P,7cf_BLOCK_HTML,7cf_CAT_P_3,7cf_MAGE";}
+        <div class="block pad-main-product">
+                    <div class="block-title-main">
+                <h2 role="heading" aria-level="2">Featured Products</h2>
+                <div class="title-border"></div>
+            </div>
+                <div style="margin-bottom: 0;float: left;width:100%;" class="block widget block-products-list grid">
+            <div class="block-content">
+                <!-- new_products_content_widget_grid-->                <div class="products-grid grid">
+                    <ol style="margin: 0;" class="product-items widget-product-grid">
+                                                                            <li class="product-item">                            <div class="product-item-info">
+                                <div class="product-img-block">
+                                    <a href="http://localhost/creamp/ezyfizz-soda-chargers-co2-10-pack-10-bulbs.html" class="product-item-photo">
+                                        
+<span class="product-image-container"
+      style="width:300px;">
+    <span class="product-image-wrapper"
+          style="padding-bottom: 125%;">
+        <img class="product-image-photo"
+                        src="http://localhost/creamp/pub/media/catalog/product/cache/7952633d48a59effd05134936b8a173b/e/z/ezyfizz_10_dreamwhip-270x270.png"
+            max-width="300"
+            max-height="375"
+            alt="EZYFIZZ SODA CHARGERS CO2 10 PACK (10 BULBS)"/></span>
+</span>
+                                        <div class="pro-overlay"></div>
+                                    </a>
+
+                                                                            <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                    data-post='{"action":"http:\/\/localhost\/creamp\/checkout\/cart\/add\/uenc\/aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv\/product\/3\/","data":{"product":"3","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                                    type="button" title="Add to Cart">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/wishlist\/index\/add\/","data":{"product":3,"uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           class="action towishlist" data-action="add-to-wishlist"
+                                                           title="Wish List">
+                                                            <span>Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/catalog\/product_compare\/add\/","data":{"product":"3","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           title="Compare">
+                                                            <span>Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                    </div>
+                                <div class="product-item-details">
+                                    <strong class="product-item-name">
+                                        <a title="EZYFIZZ SODA CHARGERS CO2 10 PACK (10 BULBS)"
+                                           href="http://localhost/creamp/ezyfizz-soda-chargers-co2-10-pack-10-bulbs.html"
+                                           class="product-item-link">
+                                            EZYFIZZ SODA CHARGERS CO2 10 PACK (10 BULBS)                                        </a>
+                                    </strong>
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="3" data-price-box="product-id-3">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-3-widget-product-grid"                data-price-amount="7.5"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AUD 7.50</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">was</span>
+        <span  id="old-price-3-widget-product-grid"                data-price-amount="8.95"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AUD 8.95</span></span>
+        </span>
+    </span>
+
+</div>
+                                                                                                                                                </div>
+                            </div>
+                                                                                </li><li class="product-item">                            <div class="product-item-info">
+                                <div class="product-img-block">
+                                    <a href="http://localhost/creamp/bestwhip-cream-chargers-n2o-10-pack-10-bulbs.html" class="product-item-photo">
+                                        
+<span class="product-image-container"
+      style="width:300px;">
+    <span class="product-image-wrapper"
+          style="padding-bottom: 125%;">
+        <img class="product-image-photo"
+                        src="http://localhost/creamp/pub/media/catalog/product/cache/7952633d48a59effd05134936b8a173b/d/r/dreamwhip_bestwhip_cream_10-600x600.png"
+            max-width="300"
+            max-height="375"
+            alt="BESTWHIP CREAM CHARGERS N2O 10 PACK (10 BULBS)"/></span>
+</span>
+                                        <div class="pro-overlay"></div>
+                                    </a>
+
+                                                                            <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                    data-post='{"action":"http:\/\/localhost\/creamp\/checkout\/cart\/add\/uenc\/aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv\/product\/2\/","data":{"product":"2","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                                    type="button" title="Add to Cart">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/wishlist\/index\/add\/","data":{"product":2,"uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           class="action towishlist" data-action="add-to-wishlist"
+                                                           title="Wish List">
+                                                            <span>Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/catalog\/product_compare\/add\/","data":{"product":"2","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           title="Compare">
+                                                            <span>Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                    </div>
+                                <div class="product-item-details">
+                                    <strong class="product-item-name">
+                                        <a title="BESTWHIP CREAM CHARGERS N2O 10 PACK (10 BULBS)"
+                                           href="http://localhost/creamp/bestwhip-cream-chargers-n2o-10-pack-10-bulbs.html"
+                                           class="product-item-link">
+                                            BESTWHIP CREAM CHARGERS N2O 10 PACK (10 BULBS)                                        </a>
+                                    </strong>
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="2" data-price-box="product-id-2">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-2-widget-product-grid"                data-price-amount="7.9"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AUD 7.90</span></span>
+        </span>
+
+</div>
+                                                                                                                                                </div>
+                            </div>
+                                                                                </li><li class="product-item">                            <div class="product-item-info">
+                                <div class="product-img-block">
+                                    <a href="http://localhost/creamp/ezywhip-cream-whipper-0-5l-blue.html" class="product-item-photo">
+                                        
+<span class="product-image-container"
+      style="width:300px;">
+    <span class="product-image-wrapper"
+          style="padding-bottom: 125%;">
+        <img class="product-image-photo"
+                        src="http://localhost/creamp/pub/media/catalog/product/cache/7952633d48a59effd05134936b8a173b/d/r/dreamwhip_ezywhip_cream_whipper_500_orange-600x600.png"
+            max-width="300"
+            max-height="375"
+            alt="EZYWHIP CREAM WHIPPER 0.5L BLUE"/></span>
+</span>
+                                        <div class="pro-overlay"></div>
+                                    </a>
+
+                                                                            <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                                                                                    <button class="action tocart primary"
+                                                                    data-post='{"action":"http:\/\/localhost\/creamp\/checkout\/cart\/add\/uenc\/aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv\/product\/1\/","data":{"product":"1","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                                    type="button" title="Add to Cart">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                                                                                                                            </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/wishlist\/index\/add\/","data":{"product":1,"uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           class="action towishlist" data-action="add-to-wishlist"
+                                                           title="Wish List">
+                                                            <span>Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare"
+                                                           data-post='{"action":"http:\/\/localhost\/creamp\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv"}}'
+                                                           title="Compare">
+                                                            <span>Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                    </div>
+                                <div class="product-item-details">
+                                    <strong class="product-item-name">
+                                        <a title="EZYWHIP CREAM WHIPPER 0.5L BLUE"
+                                           href="http://localhost/creamp/ezywhip-cream-whipper-0-5l-blue.html"
+                                           class="product-item-link">
+                                            EZYWHIP CREAM WHIPPER 0.5L BLUE                                        </a>
+                                    </strong>
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="1" data-price-box="product-id-1">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-1-widget-product-grid"                data-price-amount="59.95"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">AUD 59.95</span></span>
+        </span>
+    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">was</span>
+        <span  id="old-price-1-widget-product-grid"                data-price-amount="69.95"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">AUD 69.95</span></span>
+        </span>
+    </span>
+
+</div>
+                                                                                                                                                </div>
+                            </div>
+                            </li>                                            </ol>
+                </div>
+                            </div>
+        </div>
+    </div>

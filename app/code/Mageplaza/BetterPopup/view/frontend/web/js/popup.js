@@ -25,7 +25,7 @@ define([
     'jquery/ui'
 ], function ($, firework) {
     'use strict';
-
+    alert('hello');
     $.widget('mageplaza.betterpopup_block', {
         options: {
             dataPopup: {}

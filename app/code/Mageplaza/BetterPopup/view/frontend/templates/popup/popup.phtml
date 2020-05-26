@@ -26,7 +26,7 @@ if ($block->checkPagesToShow()) :
     <div id="mageplaza-betterpopup-block" class="mageplaza-betterpopup-block"
          data-mage-init='{"mpPopup": { "dataPopup": <?= /** @noEscape */ $block->getAjaxData() ?>}}'>
         <div id="bio_ep" style="background-color: <?= /** @noEscape */ $block->getBackGroundColor() ?>; display:none">
-            <div class="mageplaza-betterpopup-content">
+            <div class="mageplaza-betterpopup-content" >
                 <div id="bio_ep_close" aria-label="Close">
                     <img src="<?= /** @noEscape */ $block->getViewFileUrl('Mageplaza_BetterPopup::images/icon-close.png') ?>"/>
                 </div>
@@ -50,4 +50,27 @@ if ($block->checkPagesToShow()) :
             color: <?= /** @noEscape */ $block->getTextColor() ?>
         }
     </style>
+     <script>
+    require(['jquery','jquery/jquery.cookie','domReady!'], function ($) {
+       $(document).ready(function(){
+       var a = $.cookie("key");
+       if(a == 1)
+        {
+            $('#bio_ep_bg').css({display: none});
+            $('#mageplaza-betterpopup-block').hide();
+        }
+       $('#agree').on('click', function(){
+        $.cookie("key", 1);
+        $('#bio_ep_bg').css({display: none});
+        $('#mageplaza-betterpopup-block').hide();
+
+       });
+       $('#cnl-btn').on('click', function(){
+        window.location.href = "http://google.com";
+       });
+
+    }); 
+   });
+
+    </script>
 <?php endif; ?>

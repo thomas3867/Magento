@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'localhost',
-                'dbname' => 'creamp',
-                'username' => 'root',
-                'password' => '123456',
+                'dbname' => 'allwhip',
+                'username' => 'allwhip',
+                'password' => 'allwhip@123',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
@@ -33,7 +33,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'default',
+    'MAGE_MODE' => 'developer',
     'session' => [
         'save' => 'files'
     ],

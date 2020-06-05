@@ -1,0 +1,36 @@
+.page-header {
+	border: 0;
+	margin-bottom: 0;
+	background: #f2f2f2;
+}
+.header.panel > .header.links > li.welcome, .header.panel > .header.links > li > a:visited, .header.panel > .header.links > li.welcome, .header.panel > .header.links > li > a:active {
+	color: #000;
+}
+.header.panel > .header.links > li.welcome, .header.panel > .header.links > li > a {
+	line-height: 18px;
+	color: #000;
+}
+.header-notification {
+	float: left;
+	max-width: 350px;
+	text-transform: capitalize;
+	color: #000;
+	font-size: 12px;
+	line-height: 18px;
+}
+.header .block-search input::placeholder {
+	color: #000 !important;
+	opacity: 1;
+}
+.minicart-wrapper .action.showcart::before {
+	color: #000 !important;
+}
+.navigation .level0 > .level-top {
+	color: #000;
+	line-height: 35px;
+	padding: 0 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+}

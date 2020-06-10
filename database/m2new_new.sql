@@ -24,7 +24,8 @@ CREATE TABLE `adminnotification_inbox` (
 INSERT INTO `adminnotification_inbox` (`notification_id`, `severity`, `date_added`, `title`, `description`, `url`, `is_read`, `is_remove`) VALUES
 (1,	4,	'2020-05-21 12:04:09',	'Deprecation Notice',	'Catalog Search is currently configured to use the MySQL engine, which has been deprecated. Consider migrating to one of\nthe Elasticsearch engines now to ensure there are no service interruptions during your next upgrade.',	'',	0,	0),
 (2,	4,	'2020-05-21 12:31:15',	'Disable Notice',	'To improve performance, collecting statistics for the Magento Report module is disabled by default. \nYou can enable it in System Config.',	'',	0,	0),
-(3,	4,	'2020-06-08 16:43:12',	'Find out why Forrester positioned Adobe as a Leader in their latest B2B commerce report.',	'Read why Adobe was named a Leader in the “Forrester Wave: B2B Commerce Suites, Q2 2020,” and discover how we can support your business with our global partner ecosystem. https://bit.ly/2z845hk',	'https://bit.ly/2z845hk',	0,	0);
+(3,	4,	'2020-06-08 16:43:12',	'Find out why Forrester positioned Adobe as a Leader in their latest B2B commerce report.',	'Read why Adobe was named a Leader in the “Forrester Wave: B2B Commerce Suites, Q2 2020,” and discover how we can support your business with our global partner ecosystem. https://bit.ly/2z845hk',	'https://bit.ly/2z845hk',	0,	0),
+(4,	4,	'2020-06-10 00:00:00',	'8 New deals have been up. All hot extensions',	'8 high-demand Mageplaza extensions are on sales, up to 25% off. You don&#039;t want to miss them! Check it out NOW',	'https://www.mageplaza.com/deals/',	0,	0);
 
 DROP TABLE IF EXISTS `admin_analytics_usage_version_log`;
 CREATE TABLE `admin_analytics_usage_version_log` (
@@ -92,7 +93,7 @@ CREATE TABLE `admin_user` (
 
 INSERT INTO `admin_user` (`user_id`, `firstname`, `lastname`, `email`, `username`, `password`, `created`, `modified`, `logdate`, `lognum`, `reload_acl_flag`, `is_active`, `extra`, `rp_token`, `rp_token_created_at`, `interface_locale`, `failures_num`, `first_failure`, `lock_expires`, `refresh_token`) VALUES
 (1,	'Magento',	'User',	'user@example.com',	'admin',	'0bb07ad475ca6672892dbcf6fbfcadc74aa47d8b4d96cbaedb23e5dcca2ec9d6:kSxecBFvuk2L27a5:2',	'2020-05-21 12:32:36',	'2020-05-24 16:56:01',	'2020-05-24 16:56:01',	6,	0,	1,	'{\"configState\":{\"currency_options\":\"1\",\"currency_fixerio\":\"0\",\"currency_currencyconverterapi\":\"0\",\"currency_import\":\"0\",\"system_currency\":\"0\",\"system_smtp\":\"0\",\"system_mysqlmq\":\"0\",\"system_cron\":\"0\",\"system_adminnotification\":\"0\",\"system_backup\":\"0\",\"system_bulk\":\"0\",\"system_full_page_cache\":\"0\",\"system_media_storage_configuration\":\"0\",\"system_upload_configuration\":\"0\",\"system_adobe_stock_integration\":\"0\",\"betterpopup_general\":\"1\",\"betterpopup_what_to_show\":\"1\",\"betterpopup_where_to_show\":\"1\",\"betterpopup_when_to_show\":\"1\",\"betterpopup_send_email\":\"0\",\"betterpopup_module\":\"1\",\"cpanelsection_layoutgroup\":\"1\",\"cpanelsection_headergroup\":\"0\",\"cpanelsection_footergroup\":\"0\",\"cpanelsection_listpagegroup\":\"0\",\"cpanelsection_viewpagegroup\":\"0\",\"cpanelsection_contactpagegroup\":\"0\"}}',	NULL,	NULL,	'en_US',	0,	NULL,	NULL,	NULL),
-(2,	'dev',	'dev',	'dev@example.com',	'dev',	'863dd1cd995457553a66b87b3e39876666ce4f9eca478967fcc5ed269a3b89de:DYlA7E63dp5ZjYHkpVQ3kJGEiEulBUZk:1',	'2020-06-02 12:56:39',	'2020-06-09 12:22:54',	'2020-06-09 12:22:54',	37,	0,	1,	'{\"configState\":{\"general_locale\":\"1\",\"general_store_information\":\"1\",\"general_single_store_mode\":\"1\",\"general_region\":\"1\",\"general_country\":\"1\",\"cpanelsection_headergroup\":\"1\",\"cpanelsection_layoutgroup\":\"1\",\"cpanelsection_footergroup\":\"1\",\"cpanelsection_contactpagegroup\":\"1\",\"cpanelsection_viewpagegroup\":\"1\",\"cpanelsection_listpagegroup\":\"0\",\"admin_url\":\"0\",\"admin_emails\":\"1\",\"admin_startup\":\"0\",\"admin_security\":\"0\",\"admin_dashboard\":\"0\",\"admin_captcha\":\"0\",\"admin_usage\":\"0\",\"web_default\":\"1\",\"web_default_layouts\":\"1\",\"web_seo\":\"1\",\"trans_email_ident_general\":\"1\",\"trans_email_ident_sales\":\"1\",\"trans_email_ident_support\":\"1\",\"trans_email_ident_custom1\":\"1\",\"trans_email_ident_custom2\":\"1\",\"newsletter_general\":\"1\",\"newsletter_subscription\":\"1\"}}',	NULL,	NULL,	'en_US',	0,	NULL,	NULL,	NULL);
+(2,	'dev',	'dev',	'dev@example.com',	'dev',	'863dd1cd995457553a66b87b3e39876666ce4f9eca478967fcc5ed269a3b89de:DYlA7E63dp5ZjYHkpVQ3kJGEiEulBUZk:1',	'2020-06-02 12:56:39',	'2020-06-10 12:27:44',	'2020-06-10 12:06:20',	46,	0,	1,	'{\"configState\":{\"general_locale\":\"1\",\"general_store_information\":\"1\",\"general_single_store_mode\":\"1\",\"general_region\":\"1\",\"general_country\":\"1\",\"cpanelsection_headergroup\":\"1\",\"cpanelsection_layoutgroup\":\"1\",\"cpanelsection_footergroup\":\"1\",\"cpanelsection_contactpagegroup\":\"1\",\"cpanelsection_viewpagegroup\":\"1\",\"cpanelsection_listpagegroup\":\"0\",\"admin_url\":\"0\",\"admin_emails\":\"1\",\"admin_startup\":\"0\",\"admin_security\":\"0\",\"admin_dashboard\":\"0\",\"admin_captcha\":\"0\",\"admin_usage\":\"0\",\"web_default\":\"1\",\"web_default_layouts\":\"1\",\"web_seo\":\"1\",\"trans_email_ident_general\":\"1\",\"trans_email_ident_sales\":\"1\",\"trans_email_ident_support\":\"1\",\"trans_email_ident_custom1\":\"1\",\"trans_email_ident_custom2\":\"1\",\"newsletter_general\":\"1\",\"newsletter_subscription\":\"1\",\"betterpopup_general\":\"1\",\"betterpopup_what_to_show\":\"1\",\"betterpopup_where_to_show\":\"1\",\"betterpopup_send_email\":\"1\",\"betterpopup_when_to_show\":\"1\",\"betterpopup_module\":\"1\"}}',	NULL,	NULL,	'en_US',	0,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `admin_user_session`;
 CREATE TABLE `admin_user_session` (
@@ -159,7 +160,17 @@ INSERT INTO `admin_user_session` (`id`, `session_id`, `user_id`, `status`, `crea
 (47,	'8dh5iorqtt86e80cn2h1kcmr40',	2,	1,	'2020-06-09 10:32:48',	'2020-06-09 10:59:40',	'103.249.234.254'),
 (48,	'kdkaq5cugiijvno36lf7cbsk4j',	2,	1,	'2020-06-09 12:05:29',	'2020-06-09 12:05:59',	'43.242.116.181'),
 (49,	'5nelijht8mmkj1u8d28k91jc8s',	2,	1,	'2020-06-09 12:22:54',	'2020-06-09 12:25:26',	'49.34.115.101'),
-(50,	'',	NULL,	0,	'2020-06-09 12:25:52',	'2020-06-09 12:25:52',	'');
+(50,	'',	NULL,	0,	'2020-06-09 12:25:52',	'2020-06-09 12:25:52',	''),
+(51,	'bhr583jl36b1dg8m30hribeimh',	2,	1,	'2020-06-10 03:57:06',	'2020-06-10 03:59:26',	'103.85.10.247'),
+(52,	'b33n3r90jjms6baqokar0jfs46',	2,	1,	'2020-06-10 04:21:38',	'2020-06-10 04:48:14',	'103.85.10.247'),
+(53,	'nlkuokbkbcuq9i8hf9harti9lj',	2,	1,	'2020-06-10 05:18:52',	'2020-06-10 05:34:44',	'103.85.10.247'),
+(54,	'jht236uflv548611abi3mu1jnt',	2,	1,	'2020-06-10 05:51:24',	'2020-06-10 05:52:03',	'103.85.10.247'),
+(55,	'cvhvfqomsoq1rlum09evq621oo',	2,	1,	'2020-06-10 06:12:31',	'2020-06-10 06:15:06',	'103.85.10.247'),
+(56,	'fr8nsm7tgco36kmth2heqnt47k',	2,	1,	'2020-06-10 07:00:57',	'2020-06-10 07:00:57',	'103.85.10.247'),
+(57,	'',	NULL,	0,	'2020-06-10 08:27:28',	'2020-06-10 08:27:28',	''),
+(58,	'p69a8uo5l776im29dlntimhcra',	2,	0,	'2020-06-10 10:31:12',	'2020-06-10 10:36:40',	'103.81.94.168'),
+(59,	'va2c7rdvguhshcgufp8hqtau3u',	2,	0,	'2020-06-10 10:37:02',	'2020-06-10 10:43:03',	'103.81.94.168'),
+(60,	'uidts169rpkhc289bi4gk9sf2v',	2,	1,	'2020-06-10 12:06:21',	'2020-06-10 12:59:25',	'103.81.92.236');
 
 DROP TABLE IF EXISTS `adobe_stock_asset`;
 CREATE TABLE `adobe_stock_asset` (
@@ -2075,7 +2086,7 @@ INSERT INTO `catalog_product_entity` (`entity_id`, `attribute_set_id`, `type_id`
 (57,	9,	'simple',	'bestwhip-cream-chargers-10-x-8g',	0,	0,	'2020-06-08 08:42:29',	'2020-06-08 08:42:29'),
 (58,	9,	'simple',	'bestwhip-cream-chargers-100-x-8g',	0,	0,	'2020-06-08 08:45:49',	'2020-06-08 08:45:49'),
 (59,	9,	'simple',	'bestwhip-cream-chargers-120-x-8g',	0,	0,	'2020-06-08 08:51:11',	'2020-06-08 08:51:11'),
-(60,	9,	'simple',	'freshwhip-cream-chargers-1800-10pks-x-8g',	0,	0,	'2020-06-08 09:07:37',	'2020-06-08 09:08:53'),
+(60,	9,	'simple',	'freshwhip-cream-chargers-1800-10pks-x-8g',	0,	0,	'2020-06-08 09:07:37',	'2020-06-10 04:46:43'),
 (61,	9,	'simple',	'freshwhip-cream-chargers-600-x-8g',	0,	0,	'2020-06-08 09:14:19',	'2020-06-08 09:15:12'),
 (62,	9,	'simple',	'freshwhip-cream-chargers-10-x-8g',	0,	0,	'2020-06-08 09:20:53',	'2020-06-08 09:20:53'),
 (63,	9,	'simple',	'freshwhip-cream-chargers-100-10pks-x-8g',	0,	0,	'2020-06-08 09:26:13',	'2020-06-08 09:29:13'),
@@ -2092,7 +2103,7 @@ INSERT INTO `catalog_product_entity` (`entity_id`, `attribute_set_id`, `type_id`
 (74,	9,	'simple',	'bestwhip-cream-chargers-3600-x-8g-10pks',	0,	0,	'2020-06-08 09:51:18',	'2020-06-08 09:51:18'),
 (75,	9,	'simple',	'bestwhip-cream-chargers-3600-x-8g',	0,	0,	'2020-06-08 09:54:13',	'2020-06-08 10:02:57'),
 (76,	9,	'simple',	'bestwhip-cream-chargers-50-x-8g',	0,	0,	'2020-06-08 09:56:20',	'2020-06-08 09:56:20'),
-(77,	9,	'simple',	'bestwhip-cream-chargers-600-24pks-x-8g',	0,	0,	'2020-06-08 10:01:32',	'2020-06-08 10:01:32');
+(77,	9,	'simple',	'bestwhip-cream-chargers-600-24pks-x-8g',	0,	0,	'2020-06-08 10:01:32',	'2020-06-10 10:41:15');
 
 DELIMITER ;;
 
@@ -2545,7 +2556,7 @@ INSERT INTO `catalog_product_entity_int` (`value_id`, `attribute_id`, `store_id`
 (233,	97,	0,	60,	1),
 (234,	99,	0,	60,	4),
 (235,	137,	0,	60,	2),
-(236,	138,	0,	60,	0),
+(236,	138,	0,	60,	1),
 (237,	97,	0,	61,	1),
 (238,	99,	0,	61,	4),
 (239,	137,	0,	61,	2),
@@ -2613,7 +2624,7 @@ INSERT INTO `catalog_product_entity_int` (`value_id`, `attribute_id`, `store_id`
 (301,	97,	0,	77,	1),
 (302,	99,	0,	77,	4),
 (303,	137,	0,	77,	2),
-(304,	138,	0,	77,	0);
+(304,	138,	0,	77,	1);
 
 DELIMITER ;;
 
@@ -2803,7 +2814,6 @@ INSERT INTO `catalog_product_entity_media_gallery_value` (`value_id`, `store_id`
 (58,	0,	57,	NULL,	1,	0,	105),
 (59,	0,	58,	NULL,	1,	0,	106),
 (60,	0,	59,	NULL,	1,	0,	107),
-(61,	0,	60,	NULL,	1,	0,	109),
 (62,	0,	61,	NULL,	1,	0,	111),
 (63,	0,	62,	NULL,	1,	0,	112),
 (64,	0,	63,	NULL,	1,	0,	115),
@@ -2818,9 +2828,10 @@ INSERT INTO `catalog_product_entity_media_gallery_value` (`value_id`, `store_id`
 (73,	0,	73,	NULL,	1,	0,	130),
 (75,	0,	76,	NULL,	1,	0,	131),
 (65,	0,	64,	NULL,	1,	0,	132),
-(76,	0,	77,	NULL,	1,	0,	133),
 (77,	0,	72,	NULL,	1,	0,	134),
-(78,	0,	75,	NULL,	1,	0,	135);
+(78,	0,	75,	NULL,	1,	0,	135),
+(61,	0,	60,	NULL,	1,	0,	139),
+(76,	0,	77,	NULL,	1,	0,	140);
 
 DELIMITER ;;
 
@@ -4871,7 +4882,7 @@ CREATE TABLE `catalog_product_index_website` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Product Website Index Table';
 
 INSERT INTO `catalog_product_index_website` (`website_id`, `default_store_id`, `website_date`, `rate`) VALUES
-(1,	1,	'2020-06-08',	1);
+(1,	1,	'2020-06-10',	1);
 
 DROP TABLE IF EXISTS `catalog_product_link`;
 CREATE TABLE `catalog_product_link` (
@@ -5480,32 +5491,32 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (52,	'default',	0,	'adobe_ims/integration/api_key',	NULL,	'2020-05-21 13:52:42'),
 (53,	'default',	0,	'adobe_ims/integration/private_key',	NULL,	'2020-05-21 13:52:42'),
 (54,	'default',	0,	'currency/options/customsymbol',	'{\"AUD\":\"AUD \"}',	'2020-05-21 13:53:12'),
-(55,	'default',	0,	'free/module/email',	'rahul11161@gmail.com',	'2020-05-21 15:11:07'),
-(56,	'default',	0,	'free/module/name',	'rahul',	'2020-05-21 15:11:07'),
+(55,	'default',	0,	'free/module/email',	'magentoguyspk@gmail.com',	'2020-06-10 12:29:31'),
+(56,	'default',	0,	'free/module/name',	'magentoguyspk',	'2020-06-10 12:29:31'),
 (57,	'default',	0,	'free/module/create',	'1',	'2020-05-21 15:11:07'),
 (58,	'default',	0,	'free/module/subscribe',	'0',	'2020-05-21 15:11:07'),
 (59,	'default',	0,	'betterpopup/module/active',	'1',	'2020-05-21 15:11:07'),
 (60,	'default',	0,	'betterpopup/module/product_key',	'5A7MOXIGVVB26ZWVC7TWGWA3MFP2K3LMFKNUPEHF',	'2020-05-21 15:11:07'),
-(61,	'default',	0,	'betterpopup/module/email',	'rahul11161@gmail.com',	'2020-05-21 15:11:07'),
-(62,	'default',	0,	'betterpopup/module/name',	'rahul',	'2020-05-21 15:11:07'),
+(61,	'default',	0,	'betterpopup/module/email',	'magentoguyspk@gmail.com',	'2020-06-10 12:29:31'),
+(62,	'default',	0,	'betterpopup/module/name',	'magentoguyspk',	'2020-06-10 12:29:31'),
 (63,	'default',	0,	'betterpopup/module/create',	'1',	'2020-05-21 15:11:07'),
 (64,	'default',	0,	'betterpopup/module/subscribe',	'0',	'2020-05-21 15:11:07'),
 (65,	'default',	0,	'betterpopup/general/enabled',	'1',	'2020-05-21 15:12:32'),
-(66,	'default',	0,	'betterpopup/what_to_show/html_content',	'<div class=\"main-content\">\r\n   <div class=\"warn-icon\">\r\n      <span class=\"icon\">!</span>\r\n   </div>\r\n   <div id=\"swal2-content\" class=\"swal2-html-container\" style=\"display: block;\">\r\n      <p>\r\n         <strong>\r\n         <u>Age and Usage Verification</u>\r\n         </strong>\r\n      </p>\r\n      <p>We do not supply Cream Chargers to anyone under the age of 18.</p>\r\n      <p>By clicking ‘<strong>AGREE</strong>’ you confirm you are 18+ and have Read, Understood and Agree to our <a href=\"javascript::void();\" >Terms & Conditions</a>.</p>\r\n      <p style=\"border: 2px solid #907d46;border-radius: 5px;padding: 10px;\">\r\n         <strong>South Australia Customers</strong> – you are not allowed to purchase Cream Chargers between the hours of 10pm and 5am. <br> Please also view this SA Government <a href=\"https://www.agd.sa.gov.au/sites/default/files/nitrousoxidesignage_final.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" data-auth=\"NotApplicable\">notice </a> \r\n      </p>\r\n   </div>\r\n   <div class=\"swal2-actions\"><button type=\"button\" class=\"btn-cnl\" aria-label=\"\" style=\"display: inline-block;\">LEAVE</button>\r\n      <button type=\"button\" class=\"btn-agr\" aria-label=\"\" style=\"display: inline-block; border-left-color: rgb(48, 133, 214); border-right-color: rgb(48, 133, 214);\">AGREE</button>\r\n   </div>\r\n</div>\r\n<style type=\"text/css\">\r\n   .main-content {\r\n   padding: 20px 20px 20px 20px;\r\n   }\r\n   .warn-icon {\r\n   position: relative;\r\n   box-sizing: content-box;\r\n   justify-content: center;\r\n   width: 5em;\r\n   height: 5em;\r\n   margin: 1.25em auto 1.875em;\r\n   border: .25em solid transparent;\r\n   border-radius: 50%;\r\n   font-family: inherit;\r\n   line-height: 5em;\r\n   cursor: default;\r\n   -webkit-user-select: none;\r\n   -moz-user-select: none;\r\n   -ms-user-select: none;\r\n   user-select: none;\r\n   border-color: #facea8;\r\n   color: #f8bb86;\r\n   display: flex;\r\n   align-items: center;\r\n   font-size: 1.2em;\r\n   }\r\n   span.icon {\r\n   font-size: 80px;\r\n   }\r\n   div#mp-powered {\r\n   display: none;\r\n   }\r\n</style>',	'2020-05-24 17:08:05'),
+(66,	'default',	0,	'betterpopup/what_to_show/html_content',	'<div id=\"mp-popup-template3\">\r\n    <div class=\"tmp3-img-content\">\r\n        <img src=\"{{img_tmp3}}\"/>\r\n    </div>\r\n    <div class=\"tmp3-text-content\">\r\n        <div class=\"tmp3-title\">Subscribe</div>\r\n        <div class=\"tmp3-sub-title\">TO OUR NEWSLETTER</div>\r\n        <div class=\"tmp3-text mppopup-text\">Subsribe to our email newsletter today to receive update on the latest news, tutorials and special offers!</div>\r\n        <form class=\"form subscribe tmp3-form\" novalidate action=\"{{form_url}}\" method=\"post\"\r\n              data-mage-init=\'{\"validation\": {\"errorClass\": \"mage-error\"}}\'\r\n              id=\"mp-newsletter-validate-detail\">\r\n            <div class=\"tmp3_field_newsletter\">\r\n                <input name=\"email\" type=\"email\" id=\"mp-newsletter\" class=\"tmp3-input\"\r\n                       placeholder=\"Enter your email to subscribe\"\r\n                       data-validate=\"{required:true, \'validate-email\':true}\">\r\n            </div>\r\n            <button class=\"action subscribe primary tmp3-button\" title=\"Send\" type=\"submit\">\r\n                <img src=\"{{tmp3_icon_button}}\"/>\r\n            </button>\r\n            <div class=\"popup-loader\">\r\n                <img class=\"loader\" src=\"{{url_loader}}\" alt=\"Loading...\">\r\n            </div>\r\n        </form>\r\n    </div>\r\n\r\n</div>',	'2020-06-10 12:49:25'),
 (67,	'default',	0,	'betterpopup/what_to_show/responsive',	'1',	'2020-05-21 15:12:32'),
-(68,	'default',	0,	'betterpopup/what_to_show/width',	'500',	'2020-05-22 16:03:59'),
-(69,	'default',	0,	'betterpopup/what_to_show/height',	'512',	'2020-05-22 16:03:59'),
-(70,	'default',	0,	'betterpopup/what_to_show/background_color',	'#000000',	'2020-05-22 16:35:54'),
-(71,	'default',	0,	'betterpopup/what_to_show/text_color',	'#ffffff',	'2020-05-22 16:35:54'),
+(68,	'default',	0,	'betterpopup/what_to_show/width',	'800',	'2020-06-10 12:32:20'),
+(69,	'default',	0,	'betterpopup/what_to_show/height',	'321',	'2020-06-10 12:32:20'),
+(70,	'default',	0,	'betterpopup/what_to_show/background_color',	'#3d9bc7',	'2020-06-10 12:32:20'),
+(71,	'default',	0,	'betterpopup/what_to_show/text_color',	'#000000',	'2020-06-10 12:32:20'),
 (72,	'default',	0,	'betterpopup/what_to_show/popup_success/coupon_code',	'HappyMarketing',	'2020-05-21 15:12:32'),
 (73,	'default',	0,	'betterpopup/what_to_show/popup_success/html_success_content',	'<p class=\"success-title\">Thank you, you got the offer!</p>\r\n<div class=\"mp-popup-coupon-code\">\r\n    <input id=\"mp-coupon-code\" type=\"text\" readonly=\"readonly\" value=\"{{coupon_code}}\"/>\r\n    <button class=\"btn-copy primary\" type=\"submit\">Copy</button>\r\n</div>\r\n<small>Please use this coupon code when checking out</small>',	'2020-05-21 15:14:48'),
 (74,	'default',	0,	'betterpopup/what_to_show/popup_success/enabled_fireworks',	'0',	'2020-05-21 15:12:32'),
-(75,	'default',	0,	'betterpopup/where_to_show/which_page_to_show',	'1',	'2020-05-24 17:08:05'),
+(75,	'default',	0,	'betterpopup/where_to_show/which_page_to_show',	'2',	'2020-06-10 12:43:55'),
 (76,	'default',	0,	'betterpopup/where_to_show/include_pages',	NULL,	'2020-05-24 17:08:05'),
 (77,	'default',	0,	'betterpopup/where_to_show/include_pages_with_url',	'http://139.162.34.94/php71/m2new/',	'2020-06-02 12:48:52'),
 (78,	'default',	0,	'betterpopup/where_to_show/exclude_pages',	NULL,	'2020-05-21 15:12:32'),
 (79,	'default',	0,	'betterpopup/where_to_show/exclude_pages_with_url',	NULL,	'2020-05-21 15:12:32'),
-(80,	'default',	0,	'betterpopup/when_to_show/popup_appear',	'3',	'2020-05-22 16:33:24'),
+(80,	'default',	0,	'betterpopup/when_to_show/popup_appear',	'1',	'2020-06-10 12:51:50'),
 (81,	'default',	0,	'betterpopup/when_to_show/cookieExp',	'0',	'2020-05-21 15:12:32'),
 (82,	'default',	0,	'betterpopup/when_to_show/show_float_button',	'0',	'2020-05-21 15:12:32'),
 (83,	'default',	0,	'betterpopup/send_email/isSendEmail',	'0',	'2020-05-21 15:12:32'),
@@ -5540,7 +5551,7 @@ INSERT INTO `core_config_data` (`config_id`, `scope`, `scope_id`, `path`, `value
 (114,	'default',	0,	'web/secure/base_url',	'https://139.162.34.94/php71/m2new/',	'2020-06-02 12:49:49'),
 (115,	'default',	0,	'admin/security/admin_account_sharing',	'1',	'2020-06-08 09:21:33'),
 (116,	'default',	0,	'admin/security/use_case_sensitive_login',	'0',	'2020-06-08 09:21:33'),
-(117,	'default',	0,	'newsletter/general/active',	'1',	'2020-06-09 10:59:15');
+(119,	'default',	0,	'newsletter/subscription/confirm_email_identity',	'support',	'2020-06-10 05:22:19');
 
 DROP TABLE IF EXISTS `cron_schedule`;
 CREATE TABLE `cron_schedule` (
@@ -6055,9 +6066,9 @@ CREATE TABLE `customer_log` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Log Table';
 
 INSERT INTO `customer_log` (`log_id`, `customer_id`, `last_login_at`, `last_logout_at`) VALUES
-(1,	1,	'2020-06-08 11:40:37',	NULL),
+(1,	1,	'2020-06-10 10:15:55',	NULL),
 (2,	2,	'2020-06-09 05:35:11',	'2020-06-09 05:43:32'),
-(3,	3,	'2020-06-09 05:47:56',	'2020-06-09 05:49:47'),
+(3,	3,	'2020-06-10 07:19:26',	'2020-06-10 07:21:22'),
 (10,	4,	'2020-06-09 08:48:14',	NULL);
 
 DROP TABLE IF EXISTS `customer_visitor`;
@@ -6081,7 +6092,17 @@ INSERT INTO `customer_visitor` (`visitor_id`, `customer_id`, `session_id`, `last
 (7,	3,	'6217abbe7sofbl897en6dbinvf',	'2020-06-09 05:46:43'),
 (8,	3,	'q4bd6bv34sa8e4dbrd5uc5cdug',	'2020-06-09 05:49:47'),
 (9,	3,	'goak0lblsjbhr8dmlf39fo222q',	'2020-06-09 05:48:54'),
-(10,	4,	'chphm8k42i7v4njv25ej2s0ek6',	'2020-06-09 08:48:14');
+(10,	4,	'chphm8k42i7v4njv25ej2s0ek6',	'2020-06-09 08:48:14'),
+(11,	NULL,	'6d0p06t01qbfhgg1mrae1h6p0s',	'2020-06-10 03:56:43'),
+(12,	3,	'9ksd7cot0r484slfae8j3tc6no',	'2020-06-10 05:23:28'),
+(13,	3,	'aq14gupdvnmvq0dffj1rht65t9',	'2020-06-10 06:09:45'),
+(14,	3,	'5rjoccht18c2it8l6fa1hvpbtt',	'2020-06-10 07:09:03'),
+(15,	3,	'gicl40n9ai3o2fmhqcv8pd7sea',	'2020-06-10 07:11:08'),
+(16,	3,	'k8g258t5lu12663n6kh587blh3',	'2020-06-10 07:21:22'),
+(17,	1,	'n3921bt4f92qb6836jnkqurn5t',	'2020-06-10 10:14:12'),
+(18,	1,	'qbvq5vlk3bt26fqojcp1dkmn0j',	'2020-06-10 10:15:55'),
+(19,	NULL,	'1lm49irv782plo2l73adcntodr',	'2020-06-10 12:09:51'),
+(20,	NULL,	'5a2ekcen83rooeb74q83gf11o2',	'2020-06-10 12:11:11');
 
 DROP TABLE IF EXISTS `design_change`;
 CREATE TABLE `design_change` (
@@ -20890,7 +20911,9 @@ INSERT INTO `newsletter_subscriber` (`subscriber_id`, `store_id`, `change_status
 (3,	1,	'2020-05-24 17:01:00',	0,	'test11@gmail.com',	1,	'sf4nyjagw99tuu7ldxqsy3gh2spy6g5s'),
 (4,	1,	'2020-06-08 11:44:09',	0,	'deep@vdcstore.com',	1,	'8imh47ehhy8r9myyqygnhsjok2ya5o62'),
 (5,	1,	'2020-06-09 05:39:57',	3,	'admin@gmail.com',	1,	'9bx32h9qwechmdtyh2synoge2tee6xek'),
-(6,	1,	'2020-06-09 08:48:14',	4,	'hanlc109@hotmail.com',	1,	'r5sfmn323238hx0jlczrb9k12lzvk4f3');
+(6,	1,	'2020-06-09 08:48:14',	4,	'hanlc109@hotmail.com',	1,	'r5sfmn323238hx0jlczrb9k12lzvk4f3'),
+(7,	1,	'2020-06-10 03:56:43',	0,	'projects@magentoguys.com',	1,	'cdg6dya4ubj78awc3jgmqkoy9fl7olbp'),
+(9,	1,	'2020-06-10 05:51:03',	0,	'latest_1006@gmail.com',	1,	'ohoh55d29vkc244p3hv66z4ozsxznwq1');
 
 DROP TABLE IF EXISTS `newsletter_template`;
 CREATE TABLE `newsletter_template` (
@@ -21356,7 +21379,7 @@ CREATE TABLE `queue_poison_pill` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sequence table for poison pill versions';
 
 INSERT INTO `queue_poison_pill` (`version`) VALUES
-('version-5edf6b83abcac');
+('version-5ee0d76655bf6');
 
 DROP TABLE IF EXISTS `quote`;
 CREATE TABLE `quote` (
@@ -21424,7 +21447,9 @@ INSERT INTO `quote` (`entity_id`, `store_id`, `created_at`, `updated_at`, `conve
 (4,	1,	'2020-06-08 11:40:37',	'2020-06-08 11:40:37',	NULL,	1,	0,	0,	0,	0.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	0.0000,	0.0000,	NULL,	1,	NULL,	1,	'deepvdcqa@gmail.com',	NULL,	'deep',	NULL,	'pop',	NULL,	NULL,	NULL,	1,	0,	'223.238.227.37',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	1,	0,	NULL,	NULL,	0),
 (5,	1,	'2020-06-09 05:35:11',	'2020-06-09 05:35:11',	NULL,	1,	0,	0,	0,	0.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	0.0000,	0.0000,	NULL,	2,	NULL,	1,	'test@gmail.com',	NULL,	'Check',	NULL,	'Register',	NULL,	NULL,	NULL,	1,	0,	'103.250.145.213',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	1,	0,	NULL,	NULL,	0),
 (6,	1,	'2020-06-09 05:39:25',	'2020-06-09 05:39:25',	NULL,	1,	0,	0,	0,	0.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	0.0000,	0.0000,	NULL,	3,	NULL,	1,	'admin@gmail.com',	NULL,	'Check',	NULL,	'Register',	NULL,	NULL,	NULL,	1,	0,	'103.250.145.213',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	1,	0,	NULL,	NULL,	0),
-(7,	1,	'2020-06-09 08:48:14',	'2020-06-09 08:48:14',	NULL,	1,	0,	0,	0,	0.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	0.0000,	0.0000,	NULL,	4,	NULL,	1,	'hanlc109@hotmail.com',	NULL,	'Yosef',	NULL,	'Karvin',	NULL,	NULL,	NULL,	1,	0,	'188.43.136.32',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	1,	0,	NULL,	NULL,	0);
+(7,	1,	'2020-06-09 08:48:14',	'2020-06-09 08:48:14',	NULL,	1,	0,	0,	0,	0.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	0.0000,	0.0000,	NULL,	4,	NULL,	1,	'hanlc109@hotmail.com',	NULL,	'Yosef',	NULL,	'Karvin',	NULL,	NULL,	NULL,	1,	0,	'188.43.136.32',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	1,	0,	NULL,	NULL,	0),
+(8,	1,	'2020-06-10 12:09:52',	'2020-06-10 12:09:52',	NULL,	1,	0,	0,	1,	1.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	36.4500,	36.4500,	NULL,	NULL,	3,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	'103.81.92.236',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	36.4500,	36.4500,	36.4500,	36.4500,	1,	0,	NULL,	NULL,	0),
+(9,	1,	'2020-06-10 12:11:12',	'2020-06-10 12:11:12',	NULL,	1,	0,	0,	1,	1.0000,	0,	0.0000,	0.0000,	'AUD',	'AUD',	'AUD',	999.4500,	999.4500,	NULL,	NULL,	3,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	'103.81.92.236',	NULL,	NULL,	NULL,	NULL,	'AUD',	1.0000,	1.0000,	NULL,	NULL,	999.4500,	999.4500,	999.4500,	999.4500,	1,	0,	NULL,	NULL,	0);
 
 DROP TABLE IF EXISTS `quote_address`;
 CREATE TABLE `quote_address` (
@@ -21511,7 +21536,11 @@ INSERT INTO `quote_address` (`address_id`, `quote_id`, `created_at`, `updated_at
 (11,	6,	'2020-06-09 05:39:25',	'2020-06-09 05:39:25',	3,	0,	NULL,	'billing',	'admin@gmail.com',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
 (12,	6,	'2020-06-09 05:39:25',	'2020-06-09 05:39:25',	3,	0,	NULL,	'shipping',	'admin@gmail.com',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
 (13,	7,	'2020-06-09 08:48:14',	'2020-06-09 08:48:14',	4,	0,	NULL,	'billing',	'hanlc109@hotmail.com',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
-(14,	7,	'2020-06-09 08:48:14',	'2020-06-09 08:48:14',	4,	0,	NULL,	'shipping',	'hanlc109@hotmail.com',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0);
+(14,	7,	'2020-06-09 08:48:14',	'2020-06-09 08:48:14',	4,	0,	NULL,	'shipping',	'hanlc109@hotmail.com',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
+(15,	8,	'2020-06-10 12:09:52',	'2020-06-10 12:09:52',	NULL,	0,	NULL,	'billing',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
+(16,	8,	'2020-06-10 12:09:52',	'2020-06-10 12:09:52',	NULL,	0,	NULL,	'shipping',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	NULL,	NULL,	0.0000,	36.4500,	36.4500,	36.4500,	36.4500,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	36.4500,	36.4500,	NULL,	'[]',	NULL,	0.0000,	0.0000,	36.4500,	36.4500,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
+(17,	9,	'2020-06-10 12:11:12',	'2020-06-10 12:11:12',	NULL,	0,	NULL,	'billing',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0,	0,	NULL,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	NULL,	'null',	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0),
+(18,	9,	'2020-06-10 12:11:12',	'2020-06-10 12:11:12',	NULL,	0,	NULL,	'shipping',	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	1,	0,	NULL,	NULL,	0.0000,	999.4500,	999.4500,	999.4500,	999.4500,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	999.4500,	999.4500,	NULL,	'[]',	NULL,	0.0000,	0.0000,	999.4500,	999.4500,	0.0000,	0.0000,	0.0000,	NULL,	0.0000,	0.0000,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	0);
 
 DROP TABLE IF EXISTS `quote_address_item`;
 CREATE TABLE `quote_address_item` (
@@ -21580,7 +21609,9 @@ CREATE TABLE `quote_id_mask` (
 
 INSERT INTO `quote_id_mask` (`entity_id`, `quote_id`, `masked_id`) VALUES
 (3,	3,	'8cIIv65QVI2mBXeJYiPppDNYkIqr2yQ8'),
+(5,	9,	'ByHL9da2qoQpik8uyeliKptgEmoLRSNS'),
 (1,	1,	'JBtHNxdXF6cafLd90jqT4sWiM2aW9kIV'),
+(4,	8,	'M1JnWysnsczEP91WCnhiNWYyQ0LYz3Vb'),
 (2,	2,	'UtzjHwv1grSoIKJyea3Ugal5ypWaRkKL');
 
 DROP TABLE IF EXISTS `quote_item`;
@@ -21651,7 +21682,9 @@ CREATE TABLE `quote_item` (
 INSERT INTO `quote_item` (`item_id`, `quote_id`, `created_at`, `updated_at`, `product_id`, `store_id`, `parent_item_id`, `is_virtual`, `sku`, `name`, `description`, `applied_rule_ids`, `additional_data`, `is_qty_decimal`, `no_discount`, `weight`, `qty`, `price`, `base_price`, `custom_price`, `discount_percent`, `discount_amount`, `base_discount_amount`, `tax_percent`, `tax_amount`, `base_tax_amount`, `row_total`, `base_row_total`, `row_total_with_discount`, `row_weight`, `product_type`, `base_tax_before_discount`, `tax_before_discount`, `original_custom_price`, `redirect_url`, `base_cost`, `price_incl_tax`, `base_price_incl_tax`, `row_total_incl_tax`, `base_row_total_incl_tax`, `discount_tax_compensation_amount`, `base_discount_tax_compensation_amount`, `gift_message_id`, `free_shipping`, `weee_tax_applied`, `weee_tax_applied_amount`, `weee_tax_applied_row_amount`, `weee_tax_disposition`, `weee_tax_row_disposition`, `base_weee_tax_applied_amount`, `base_weee_tax_applied_row_amnt`, `base_weee_tax_disposition`, `base_weee_tax_row_disposition`) VALUES
 (1,	1,	'2020-05-24 17:04:07',	'2020-05-24 17:06:47',	2,	1,	NULL,	0,	'BESTWHIP CREAM CHARGERS N2O 10 PACK (10 BULBS)',	'BESTWHIP CREAM CHARGERS N2O 10 PACK (10 BULBS)',	NULL,	'1',	NULL,	0,	0,	NULL,	2.0000,	7.9000,	7.9000,	NULL,	0.0000,	4.0000,	4.0000,	0.0000,	0.0000,	0.0000,	15.8000,	15.8000,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	7.9000,	7.9000,	15.8000,	15.8000,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
 (2,	2,	'2020-06-02 12:59:08',	'2020-06-02 12:59:08',	1,	1,	NULL,	0,	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	NULL,	NULL,	NULL,	0,	0,	NULL,	1.0000,	59.9500,	59.9500,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	59.9500,	59.9500,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	59.9500,	59.9500,	59.9500,	59.9500,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
-(3,	3,	'2020-06-08 11:20:14',	'2020-06-08 11:20:22',	1,	1,	NULL,	0,	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	NULL,	NULL,	NULL,	0,	0,	NULL,	2.0000,	59.9500,	59.9500,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	119.9000,	119.9000,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	59.9500,	59.9500,	119.9000,	119.9000,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
+(3,	3,	'2020-06-08 11:20:14',	'2020-06-08 11:20:22',	1,	1,	NULL,	0,	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	'EZYWHIP CREAM WHIPPER 0.5L BLUE',	NULL,	NULL,	NULL,	0,	0,	NULL,	2.0000,	59.9500,	59.9500,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	119.9000,	119.9000,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	59.9500,	59.9500,	119.9000,	119.9000,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(4,	8,	'2020-06-10 12:09:52',	'2020-06-10 12:09:52',	76,	1,	NULL,	0,	'bestwhip-cream-chargers-50-x-8g',	'BestWhip Cream Chargers - 50 x 8g',	NULL,	NULL,	NULL,	0,	0,	NULL,	1.0000,	36.4500,	36.4500,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	36.4500,	36.4500,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	36.4500,	36.4500,	36.4500,	36.4500,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL),
+(5,	9,	'2020-06-10 12:11:12',	'2020-06-10 12:11:12',	60,	1,	NULL,	0,	'freshwhip-cream-chargers-1800-10pks-x-8g',	'FreshWhip Mint Infusion Chargers - 180 x 10pks -  8.2g',	NULL,	NULL,	NULL,	0,	0,	NULL,	1.0000,	999.4500,	999.4500,	NULL,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	0.0000,	999.4500,	999.4500,	0.0000,	0.0000,	'simple',	NULL,	NULL,	NULL,	NULL,	NULL,	999.4500,	999.4500,	999.4500,	999.4500,	0.0000,	0.0000,	NULL,	0,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL,	NULL);
 
 DROP TABLE IF EXISTS `quote_item_option`;
 CREATE TABLE `quote_item_option` (
@@ -21668,7 +21701,9 @@ CREATE TABLE `quote_item_option` (
 INSERT INTO `quote_item_option` (`option_id`, `item_id`, `product_id`, `code`, `value`) VALUES
 (1,	1,	2,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovL2xvY2FsaG9zdC9jcmVhbXAv\",\"product\":\"2\",\"qty\":1}'),
 (2,	2,	1,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovLzEzOS4xNjIuMzQuOTQvcGhwNzEvbTJuZXcvZXp5d2hpcC1jcmVhbS13aGlwcGVyLTAtNWwtYmx1ZS5odG1s\",\"product\":\"1\",\"selected_configurable_option\":\"\",\"related_product\":\"\",\"item\":\"1\",\"qty\":\"1\"}'),
-(3,	3,	1,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovLzEzOS4xNjIuMzQuOTQvcGhwNzEvbTJuZXcv\",\"product\":\"1\",\"qty\":1}');
+(3,	3,	1,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovLzEzOS4xNjIuMzQuOTQvcGhwNzEvbTJuZXcv\",\"product\":\"1\",\"qty\":1}'),
+(4,	4,	76,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovLzEzOS4xNjIuMzQuOTQvcGhwNzEvbTJuZXcvYmVzdHdoaXAtY3JlYW0tY2hhcmdlcnMtNTAteC04Zy5odG1s\",\"product\":\"76\",\"selected_configurable_option\":\"\",\"related_product\":\"\",\"item\":\"76\",\"qty\":\"1\"}'),
+(5,	5,	60,	'info_buyRequest',	'{\"uenc\":\"aHR0cDovLzEzOS4xNjIuMzQuOTQvcGhwNzEvbTJuZXcv\",\"product\":\"60\",\"qty\":1}');
 
 DROP TABLE IF EXISTS `quote_payment`;
 CREATE TABLE `quote_payment` (
@@ -25535,7 +25570,19 @@ INSERT INTO `scconnector_google_feed_cl` (`version_id`, `entity_id`) VALUES
 (2021,	75),
 (2022,	75),
 (2023,	75),
-(2024,	75);
+(2024,	75),
+(2025,	77),
+(2026,	77),
+(2027,	77),
+(2028,	77),
+(2029,	77),
+(2030,	77),
+(2031,	77),
+(2032,	60),
+(2033,	60),
+(2034,	60),
+(2035,	77),
+(2036,	77);
 
 DROP TABLE IF EXISTS `scconnector_google_remove_cl`;
 CREATE TABLE `scconnector_google_remove_cl` (
@@ -25985,7 +26032,9 @@ INSERT INTO `scconnector_google_remove_cl` (`version_id`, `entity_id`) VALUES
 (457,	77),
 (458,	77),
 (459,	77),
-(460,	77);
+(460,	77),
+(461,	77),
+(462,	60);
 
 DROP TABLE IF EXISTS `search_query`;
 CREATE TABLE `search_query` (
@@ -26959,4 +27008,4 @@ CREATE TABLE `yotpo_sync` (
 DROP TABLE IF EXISTS `inventory_stock_1`;
 CREATE ALGORITHM=UNDEFINED SQL SECURITY INVOKER VIEW `inventory_stock_1` AS select distinct `legacy_stock_status`.`product_id` AS `product_id`,`legacy_stock_status`.`website_id` AS `website_id`,`legacy_stock_status`.`stock_id` AS `stock_id`,`legacy_stock_status`.`qty` AS `quantity`,`legacy_stock_status`.`stock_status` AS `is_salable`,`product`.`sku` AS `sku` from (`cataloginventory_stock_status` `legacy_stock_status` join `catalog_product_entity` `product` on((`legacy_stock_status`.`product_id` = `product`.`entity_id`)));
 
--- 2020-06-09 12:46:36
+-- 2020-06-10 13:17:45
